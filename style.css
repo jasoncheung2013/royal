@@ -1,0 +1,166 @@
+*{
+  margin :0;
+  padding : 0;
+}img {
+  width : 500px;
+}
+
+#top {
+ display : flex;
+}
+
+header {
+  background-color: #333;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  color: #ccc;
+}
+
+
+
+#banner {
+  width :100%;
+  position : relative;
+}
+
+#bannerDesc {
+    position : absolute;
+    width: 45%;
+    height : 30vh;
+    padding : 3%;
+text-align:justify;
+border-radius: 20px;
+top : 35%;
+left : 24%;
+color :white;
+
+
+
+}
+
+
+#bannerDesc > p {
+  font-size : 25px;
+  line-height : 30px;
+  font-weight: bold;
+  color: white;
+  text-shadow : #000 1px 0 10px;
+
+}
+#bannerDesc > h3 {
+  font-size : 32px;
+  line-height : 40px;
+  color: white;
+  text-shadow : #000 1px 0 10px;
+
+}
+body {
+  font-family: 'Handjet', cursive;
+}
+.name {
+  font-size : 30px;
+  letter-spacing: 6px;
+}
+.me {
+  height : 220px;
+}
+.post {
+  width : 220;
+  height: 294;
+  object-fit: cover;
+  border-radius : 20px;
+}
+.desc {
+margin : 2%;
+padding : 2%;
+
+
+}
+
+
+.box {
+display : flex;
+flex-direction : row;
+justify-content : space-evenly;
+margin-top: 2%;
+}
+
+.social {
+  width:60px;
+  height: 60px;
+  padding: 1%;
+}
+
+.header {
+  font-size : 25px;
+  font-weight : bold;
+  margin-bottom : 2%;
+}
+
+#contactBox {
+    display: flex;
+    flex-direction : row;
+    flex-wrap: wrap;
+  justify-content:center;
+}
+  ul {
+    list-style-type : none;
+  }
+  li {
+    padding:2%
+  }
+
+input {
+  width : 60%;
+  height : 30px;
+  margin :1%;
+}
+  form {
+    padding :2%;
+  }
+
+#submit {
+  padding:2%;
+  background-color :#000;
+  width: 20%;
+  border-radius : 5px;
+  align-content:center;
+  border : 2px solid darkblue;
+}
+
+#bottom {
+  text-align : center;
+  height : 30vh;
+  padding:3%;
+  background-color : #F5F5F5;
+}
+
+.big {
+  width : 40%;
+}
+
+.small {
+  width: 20%;
+}
